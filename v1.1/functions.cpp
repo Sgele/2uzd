@@ -51,13 +51,13 @@ void dalijimas_struct(list<studentas> studentai)
 {
     auto start_time = std::chrono::high_resolution_clock::now();
     int dydis = studentai.size();
-    vector<studentas> kvaili;
+    vector<studentas> nuskriausti;
     vector<studentas> protingi;
     for (studentas stud : studentai)
     {
         if (stud.rezultatas < 5)
         {
-            kvaili.push_back(stud);
+            nuskriausti.push_back(stud);
         }
         else
         {
@@ -76,13 +76,13 @@ void dalijimas_class(list<StudentasClass> studentai)
     auto start_time = std::chrono::high_resolution_clock::now();
 
     int dydis = studentai.size();
-    vector<StudentasClass> kvaili;
+    vector<StudentasClass> nuskriausti;
     vector<StudentasClass> protingi;
     for (StudentasClass stud : studentai)
     {
         if (stud.getRezultatas() < 5)
         {
-            kvaili.push_back(stud);
+            nuskriausti.push_back(stud);
         }
         else
         {
