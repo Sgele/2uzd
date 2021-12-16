@@ -52,6 +52,6 @@
 * Pridėtas destruktorius
 
 # V1.5
-V1.5 Pridėta bazinė klasė "Žmogus"<br>
-V1.5 Iš žmogaus klasės išvesta klasė "StudentasClass"<br>
-V1.5 "Žmogus" klasė padaryta abstrakti
+* V1.5 Pridėta bazinė klasė "Žmogus"<br>
+* V1.5 Iš žmogaus klasės išvesta klasė "StudentasClass"<br>
+* V1.5 "Žmogus" klasė padaryta abstrakti
